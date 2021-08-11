@@ -9,7 +9,7 @@ setup(
 	version = '0.0.1',
 	description = 'Console chat.',
 	classifiers = [
-		'Programming Language :: Python :: 3',
+		'Programming Language :: Python :: 3.8',
 		'License :: OSI Approved :: MIT License',
 		'Operating System :: POSIX :: Linux'
 	],

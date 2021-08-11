@@ -113,7 +113,7 @@ def service_connection(key, mask, mem):
 			data.outb = b'' if message is None else dict_to_bytes(message)
 
 if __name__ == '__main__':
-	host = input('Input server IP: ')
+	host = input('Input server address: ')
 	
 	sel = selectors.DefaultSelector()
 	
